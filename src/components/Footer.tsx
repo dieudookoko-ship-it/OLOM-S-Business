@@ -150,7 +150,7 @@ export const Footer: React.FC = () => {
             </div>
             <div>
               <strong className="text-white block">Brazzaville · Angola</strong>
-              <span>00 242 069706279 · +244 946 419 037</span>
+              <span>+242 069706279 · +244 946 419 037</span>
             </div>
           </div>
         </div>

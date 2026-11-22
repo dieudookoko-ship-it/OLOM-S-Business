@@ -101,7 +101,7 @@ export const QuoteSection: React.FC = () => {
                   { id: 'kinshasa', label: 'Kinshasa (RDC)', num: '+243 863408853' },
                   { id: 'lubumbashi', label: 'Lubumbashi (RDC)', num: '+243 893543162' },
                   { id: 'guangzhou', label: 'Guangzhou (Chine)', num: '+86-13760630460' },
-                  { id: 'brazzaville', label: 'Brazzaville (BZV)', num: '00 242 069706279' },
+                  { id: 'brazzaville', label: 'Brazzaville (BZV)', num: '+242 069706279' },
                 ].map((item) => (
                   <a
                     key={item.id}

@@ -45,7 +45,7 @@ export const OFFICE_LOCATIONS: OfficeContact[] = [
     labelEn: 'Republic of the Congo — Brazzaville',
     labelZh: '刚果（布）— 布拉柴维尔办事处',
     address: '210 Rue Mboko, Avenue de la Troisième, Arrêt de bus Soparis, Brazzaville, Congo',
-    phones: ['00 242 069706279', '064290482'],
+    phones: ['+242 069706279', '+242 064290482'],
     whatsappPhone: '242069706279',
   },
   {

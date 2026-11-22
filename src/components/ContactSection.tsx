@@ -123,14 +123,18 @@ export const ContactSection: React.FC = () => {
 
                   {/* Phones */}
                   <div className="space-y-2">
-                    {office.phones.map((phone) => (
+                    {office.phones.map((phone, phoneIdx) => (
                       <div key={phone} className="flex items-center justify-between gap-2 text-sm">
                         <a
                           href={`tel:${phone.replace(/[^+\d]/g, '')}`}
                           className="inline-flex items-center gap-2 font-mono font-medium text-[#102E49] hover:text-[#168ACB] tabular-nums"
                         >
                           <Phone className="w-3.5 h-3.5 text-[#168ACB] shrink-0" aria-hidden="true" />
-                          <span>{phone}</span>
+                          <span>
+                            {office.id === 'guangzhou'
+                              ? `Téléphone ${phoneIdx + 1} : ${phone}`
+                              : phone}
+                          </span>
                         </a>
                         <button
                           type="button"
