@@ -1,0 +1,6 @@
+{
+  "name": "OLOM'S Business — Transport International & Logistique Chine – RDC",
+  "description": "OLOM'S International business CO. LTD. : fret aérien et maritime, import-export et logistique entre la Chine (Guangzhou) et la RDC (Kinshasa, Lubumbashi), Congo-Brazzaville et Angola.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
