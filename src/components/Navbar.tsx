@@ -3,6 +3,7 @@ import { ArrowRight, Menu, X, UserCheck } from 'lucide-react';
 import { BRAND_INFO } from '../data/companyData';
 import { useLogistics } from '../context/LogisticsContext';
 import { Language } from '../types/logistics';
+import { ChinaFlagIcon, DrcFlagIcon } from './CountryFlags';
 
 export const Navbar: React.FC = () => {
   const { lang, setLang, t, openAuthModal, authSession } = useLogistics();
@@ -34,8 +35,12 @@ export const Navbar: React.FC = () => {
             className="h-11 w-11 md:h-12 md:w-12 object-contain rounded-full shrink-0 bg-white"
             referrerPolicy="no-referrer"
           />
-          <span className="font-display text-lg md:text-xl font-bold tracking-tight text-[#102E49] whitespace-nowrap shrink-0">
-            {BRAND_INFO.tradeName}
+          <span className="font-display text-lg md:text-xl font-bold tracking-tight text-[#102E49] whitespace-nowrap shrink-0 inline-flex items-center gap-2">
+            <span>{BRAND_INFO.tradeName}</span>
+            <span className="inline-flex items-center gap-1.5 shrink-0">
+              <ChinaFlagIcon className="w-5 h-3.5 ring-[#102E49]/15" />
+              <DrcFlagIcon className="w-5 h-3.5 ring-[#102E49]/15" />
+            </span>
           </span>
         </a>
 

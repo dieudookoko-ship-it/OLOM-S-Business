@@ -25,8 +25,8 @@ export const Footer: React.FC = () => {
                 <div className="font-display text-lg font-bold text-white flex items-center gap-2 flex-wrap">
                   <span>{BRAND_INFO.tradeName}</span>
                   <span className="inline-flex items-center gap-1.5 shrink-0">
-                    <DrcFlagIcon className="w-5 h-3.5" />
                     <ChinaFlagIcon className="w-5 h-3.5" />
+                    <DrcFlagIcon className="w-5 h-3.5" />
                   </span>
                 </div>
                 <div className="text-xs text-[#D9E8F1]/75">{BRAND_INFO.legalName}</div>
