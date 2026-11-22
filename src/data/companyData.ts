@@ -66,7 +66,7 @@ export const OFFICE_LOCATIONS: OfficeContact[] = [
     labelFr: 'Chine (Guangzhou) — Bureau du Manager',
     labelEn: 'China (Guangzhou) — Manager Office',
     labelZh: '中国（广州）— 经理办公室',
-    manager: 'EMILE',
+    manager: 'Emile OWALA',
     address: 'Rm. 1802, Lao Gan East Building, Lu Jing Road, Yue Xiu District, Guangzhou.',
     addressZh: '地址：广州市越秀区麓景路老干大厦东楼 1802 室',
     phones: ['+86-13760630460', '+86-13533824708'],

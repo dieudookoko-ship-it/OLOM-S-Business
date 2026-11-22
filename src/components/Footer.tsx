@@ -145,7 +145,7 @@ export const Footer: React.FC = () => {
               <span>Av. Maniema coin Kambove N°54 · +243 893543162</span>
             </div>
             <div>
-              <strong className="text-white block">Guangzhou (Chine — Manager EMILE)</strong>
+              <strong className="text-white block">Guangzhou (Chine — Manager Emile OWALA)</strong>
               <span>Rm. 1802, Lao Gan East Building · +86-13760630460</span>
             </div>
             <div>
